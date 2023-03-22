@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+@keyframes anim {
+0%{
+   margin-left: 0vw; 
+}
+25%{
+    margin-left: 91vw;
+}
+50%{
+    margin-left: 91vw;
+}
+75%{
+    transform: rotateY(180deg);
+}
+100%{
+    margin-left: 0vw;
+}
+}
+
+img{
+    animation: anim 15s infinite;
+}
+.animation-control{
+    width: 100vw;
+}
